@@ -1,0 +1,137 @@
+int led1 = D0;
+int led2 = D7;
+
+void setup() {
+
+  pinMode(led1, OUTPUT);
+  pinMode(led2, OUTPUT);
+
+}
+
+void loop() {
+ // Letter K   
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+
+  delay(1000);
+
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+
+  delay(1000);
+
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+
+  delay(200);
+
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+
+  delay(1000);
+  
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+
+  delay(1000);
+  
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+
+  delay(5000);
+// End Letter K
+// Letter Y
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+
+  delay(1000);
+  
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+
+  delay(1000);
+
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+
+  delay(200);
+  
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+
+  delay(1000);
+
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+
+  delay(1000);
+
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+
+  delay(1000);
+
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+
+  delay(1000);
+
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+
+  delay(5000);
+// End Letter Y
+// Letter L
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+
+  delay(200);
+
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+
+  delay(1000);
+  
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+
+  delay(1000);
+
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+
+  delay(1000);
+
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+
+  delay(200);
+
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+
+  delay(1000);
+
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+
+  delay(200);
+
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+
+  delay(5000);
+// End Letter L
+// Letter E
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+
+  delay(200);
+
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
+
+  delay(10000);
+// End Letter E
+
+}
